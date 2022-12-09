@@ -35,6 +35,13 @@ class _LoginPageState extends State<LoginPage> {
               controller: _passwordController,
               obscureText: false,
             ),
+             const SizedBox(
+              height: 30,
+            ),
+            ElevatedButton(
+              onPressed: (){},
+               child: const Text('Login')
+            ),
           ],
         ),
       ),
